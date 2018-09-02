@@ -1,0 +1,36 @@
+@import url('./variables/fonts.css');
+
+body, html {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+div#main {
+    width: 100%;
+    position: absolute !important;
+    z-index: 3 !important;
+}
+
+div#background {
+    width: 100%;
+    height: 100%;
+    position: fixed!important;
+    z-index: 1 !important;
+}
+
+div#overlay {
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: fixed!important;
+    z-index: 2 !important;
+}
+
+*.title {
+    font-family: "Raleway" !important;
+}
+
+*.center {
+    text-align: center;
+}
+

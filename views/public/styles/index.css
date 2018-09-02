@@ -1,0 +1,9 @@
+div#main {
+    margin: 20px;
+    width: calc(100% - 40px);
+}
+
+.ui.header.title {
+    margin: 0;
+}
+
